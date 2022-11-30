@@ -1,0 +1,89 @@
+.container{
+    margin: -50px 166px;
+    display: flex;
+    align-items: center;
+   
+}
+.wrapper{
+    background-image: url(fon.jpg);
+
+    height: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.phone{
+    margin: 0;
+    flex-direction: row-reverse;
+}
+.menu{
+    padding-top: 50px;
+    justify-content: space-around;
+    color: black;
+   
+    
+}
+.item{
+   color: black;
+    text-decoration: none;
+    font-weight: 700px;
+    font-size: 25px;
+    margin-right: 25px;
+    
+}
+.about{
+    margin: 224px 0px 0px 132px;
+   color: black;
+   
+}
+.text{
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+.number{
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+   
+}
+.nav{
+    width: 70px;
+    height: 45px;
+    color: white;
+    margin: 294px 0px 134px -91px;
+}
+.nav1{
+  
+   background-color: white;
+    margin-top: -138px;
+    width: 380px;
+    height: 450px;
+}
+.nav2{
+    width: 380px;
+    height: 450px;
+    background-color: white;
+    margin: -449px 0px 0 500px;
+} 
+
+.nav3{
+    width: 380px;
+    height: 450px;
+    background-color: white;
+    margin: -449px 0 0 1000px
+}
+.html5{
+   width: 250px;
+   margin: 59px;
+   margin: 0px 0 -230px 72px;
+}
+.css3{
+    width: 150px;
+}
+.prog{
+    align-items: center;
+    justify-content: space-around;
+}
