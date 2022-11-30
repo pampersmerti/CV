@@ -1,16 +1,16 @@
 .container{
-    margin: -50px 166px;
+    /* margin: -50px 166px;
     display: flex;
-    align-items: center;
+    align-items: center; */
    
 }
 .wrapper{
-    background-image: url(fon.jpg);
+    background-image: url(https://github.com/pampersmerti/CV/blob/main/github/fon.jpg?raw=true);
 
     height: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
-    
+    padding: 10px;
 }
 .body{
     margin: 0;
@@ -36,7 +36,7 @@
     
 }
 .about{
-    margin: 224px 0px 0px 132px;
+    /* margin: 224px 0px 0px 132px; */
    color: black;
    
 }
@@ -47,43 +47,243 @@
 .number{
     font-size: 30px;
     font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: end;
    
 }
 .nav{
-    width: 70px;
+    /* width: 70px;
     height: 45px;
     color: white;
-    margin: 294px 0px 134px -91px;
+    margin: 294px 0px 134px -91px; */
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
 }
 .nav1{
   
    background-color: white;
-    margin-top: -138px;
+    /* margin-top: -138px; */
     width: 380px;
     height: 450px;
+    margin-right: 10px;
 }
 .nav2{
     width: 380px;
     height: 450px;
     background-color: white;
-    margin: -449px 0px 0 500px;
+    /* margin: -449px 0px 0 450px; */
+    margin-right: 10px;
 } 
 
 .nav3{
     width: 380px;
     height: 450px;
     background-color: white;
-    margin: -449px 0 0 1000px
+    /* margin: -449px 0 0 895px */
+    margin-right: 10px;
 }
 .html5{
    width: 250px;
-   margin: 59px;
-   margin: 0px 0 -230px 72px;
+   margin: 59px;    
+   /* margin: 0px 0 -142px 69px; */
 }
 .css3{
-    width: 150px;
+    width: 130px;
+    /* margin: -5px 0 0 121px; */
 }
 .prog{
     align-items: center;
     justify-content: space-around;
+}
+.english{
+    width: 300px;
+    margin: 40px;
+}
+.meter {
+    
+            height: 20px;  /* Может быть любой */
+    
+            position: relative;
+
+            background: #555;
+    
+            -moz-border-radius: 25px;
+    
+            -webkit-border-radius: 25px;
+    
+            border-radius: 25px;
+    
+            padding: 10px;
+    
+            -webkit-box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+    
+            -moz-box-shadow   : inset 0 -1px 1px rgba(255,255,255,0.3);
+    
+            box-shadow        : inset 0 -1px 1px rgba(255,255,255,0.3);
+            width: 300px;
+             /* margin: 0 0 0 -59px; */
+    
+    }
+    .meter > span {
+        
+                display: block;
+        
+                height: 100%;
+        
+                   -webkit-border-top-right-radius: 8px;
+        
+                -webkit-border-bottom-right-radius: 8px;
+        
+                       -moz-border-radius-topright: 8px;
+        
+                    -moz-border-radius-bottomright: 8px;
+        
+                           border-top-right-radius: 8px;
+        
+                        border-bottom-right-radius: 8px;
+                            -webkit-border-top-left-radius: 20px;
+        
+                 -webkit-border-bottom-left-radius: 20px;
+        
+                        -moz-border-radius-topleft: 20px;
+        
+                     -moz-border-radius-bottomleft: 20px;
+
+                            border-top-left-radius: 20px;
+        
+                         border-bottom-left-radius: 20px;
+        
+                background-color: rgb(43,194,83);
+        
+                background-image: -webkit-gradient(
+        
+                  linear,
+        
+                  left bottom,
+        
+                  left top,
+        
+                  color-stop(0, rgb(43,194,83)),
+        
+                  color-stop(1, rgb(84,240,84))
+        
+                 );
+        
+                background-image: -moz-linear-gradient(
+        
+                  center bottom,
+                          rgb(43,194,83) 37%,
+    
+                  rgb(84,240,84) 69%
+        
+                 );
+        
+                -webkit-box-shadow:
+        
+                  inset 0 2px 9px  rgba(255,255,255,0.3),
+        
+                  inset 0 -2px 6px rgba(0,0,0,0.4);
+        
+                -moz-box-shadow:
+        
+                  inset 0 2px 9px  rgba(255,255,255,0.3),
+    
+                  inset 0 -2px 6px rgba(0,0,0,0.4);
+              overflow: hidden;
+        
+                position: relative;
+}
+  .meter2{
+    
+    height: 20px;  /* Может быть любой */
+    
+    position: relative;
+
+    background: #555;
+
+    -moz-border-radius: 25px;
+
+    -webkit-border-radius: 25px;
+
+    border-radius: 25px;
+
+    padding: 10px;
+
+    -webkit-box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+
+    -moz-box-shadow   : inset 0 -1px 1px rgba(255,255,255,0.3);
+
+    box-shadow        : inset 0 -1px 1px rgba(255,255,255,0.3);
+    width: 300px;
+    margin:0 0 0 390px;
+  }      
+  .meter2 > span {
+        
+    display: block;
+
+    height: 100%;
+
+       -webkit-border-top-right-radius: 8px;
+
+    -webkit-border-bottom-right-radius: 8px;
+
+           -moz-border-radius-topright: 8px;
+
+        -moz-border-radius-bottomright: 8px;
+
+               border-top-right-radius: 8px;
+
+            border-bottom-right-radius: 8px;
+                -webkit-border-top-left-radius: 20px;
+
+     -webkit-border-bottom-left-radius: 20px;
+
+            -moz-border-radius-topleft: 20px;
+
+         -moz-border-radius-bottomleft: 20px;
+
+                border-top-left-radius: 20px;
+
+             border-bottom-left-radius: 20px;
+
+    background-color: rgb(43,194,83);
+
+    background-image: -webkit-gradient(
+
+      linear,
+
+      left bottom,
+
+      left top,
+
+      color-stop(0, rgb(43,194,83)),
+
+      color-stop(1, rgb(84,240,84))
+
+     );
+
+    background-image: -moz-linear-gradient(
+
+      center bottom,
+              rgb(43,194,83) 37%,
+
+      rgb(84,240,84) 69%
+
+     );
+
+    -webkit-box-shadow:
+
+      inset 0 2px 9px  rgba(255,255,255,0.3),
+
+      inset 0 -2px 6px rgba(0,0,0,0.4);
+
+    -moz-box-shadow:
+
+      inset 0 2px 9px  rgba(255,255,255,0.3),
+
+      inset 0 -2px 6px rgba(0,0,0,0.4);
+  overflow: hidden;
+
+    position: relative;
 }
