@@ -1,203 +1,180 @@
-.container{
-    /* margin: -50px 166px;
-    display: flex;
-    align-items: center; */
+.container {
    
+
 }
-.wrapper{
+
+.zagol {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+/* ЗАГОЛОВОК */
+
+.wrapper {
     background-image: url(https://github.com/pampersmerti/CV/blob/main/github/fon.jpg?raw=true);
 
     height: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 10px;
+
 }
-.body{
+/* ФОН */
+
+.body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
-.phone{
+/* ВСЕ */
+
+.phone {
     margin: 0;
     flex-direction: row-reverse;
 }
-.menu{
+/* НОМЕР ТЕЛЕФОНА */
+
+.menu {
     padding-top: 50px;
-    justify-content: space-around;
+    justify-content: space-between;
     color: black;
-   
-    
+    display: flex;
+
+
 }
-.item{
-   color: black;
+/* ИМЕЙЛ И ГИТХАБ */
+
+.item1 {
+    color: orangered;
+}
+/* ТЕКСТ ИМЕЙЛА */
+
+.item2 {
+    color: gold;
+}
+/* ТЕКСТ ГИТХАБА */
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 65px;
+}
+/* СОЦИАЛЬНЫЕ СЕТИ */
+
+.item {
+    color: black;
     text-decoration: none;
     font-weight: 700px;
-    font-size: 25px;
+    font-size: 35px;
     margin-right: 25px;
-    
+    font-family: 'Open Sans', sans-serif;
+
 }
-.about{
-    /* margin: 224px 0px 0px 132px; */
-   color: black;
-   
+/* ИМЕЙЛ И ГИТХАБ */
+
+.about {
+ 
+    color: red;
+
 }
-.text{
+/* ОБО МНЕ */
+
+.text {
     font-size: 40px;
     font-family: 'Open Sans', sans-serif;
+    justify-content: center;
+    text-align: center;
 }
-.number{
+/* ТЕКСТ */
+
+.number {
     font-size: 30px;
     font-family: 'Open Sans', sans-serif;
     display: flex;
     justify-content: end;
-   
+
+
 }
-.nav{
-    /* width: 70px;
-    height: 45px;
-    color: white;
-    margin: 294px 0px 134px -91px; */
+/* ШРИФТ ФЛЕКС */
+
+.phone {
+    color: cyan;
+}
+/* ЦВЕТ ТЕЛЕФОНА СЛУЧАЙНО В НОВОМ ЗДЕЛАЛ */
+
+.nav {
+   
     display: flex;
     width: 100vw;
     justify-content: space-around;
+
 }
-.nav1{
-  
-   background-color: white;
+/* 3 БЛОКА С МОИМИ НАВЫКАМИ */
+
+.nav1 {
+
+    background-color: white;
     /* margin-top: -138px; */
     width: 380px;
     height: 450px;
-    margin-right: 10px;
+    border: 10px solid orange;
+
+
 }
-.nav2{
+/* html */
+
+.nav2 {
     width: 380px;
     height: 450px;
     background-color: white;
     /* margin: -449px 0px 0 450px; */
     margin-right: 10px;
-} 
+    border: 10px solid blue;
+}
+/* css3 */
 
-.nav3{
+.nav3 {
     width: 380px;
     height: 450px;
     background-color: white;
     /* margin: -449px 0 0 895px */
     margin-right: 10px;
+    border: 10px solid red;
 }
-.html5{
-   width: 250px;
-   margin: 59px;    
-   /* margin: 0px 0 -142px 69px; */
+/* ENGLISH  */
+.html5 {
+    width: 250px;
+    margin: 0 0 0 70px;
+
+  
 }
-.css3{
+/* КАРТИНКА html */
+.css3 {
     width: 130px;
-    /* margin: -5px 0 0 121px; */
+
+    margin: 0 0 0 124px;
+
 }
-.prog{
+/* КАРТИНКА CSS  */
+
+.prog {
     align-items: center;
     justify-content: space-around;
 }
-.english{
+
+.english {
     width: 300px;
     margin: 40px;
 }
+/* КАРТИНКА БРИТАНСКОГО ФЛАГА */
+
 .meter {
-    
-            height: 20px;  /* Может быть любой */
-    
-            position: relative;
 
-            background: #555;
-    
-            -moz-border-radius: 25px;
-    
-            -webkit-border-radius: 25px;
-    
-            border-radius: 25px;
-    
-            padding: 10px;
-    
-            -webkit-box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
-    
-            -moz-box-shadow   : inset 0 -1px 1px rgba(255,255,255,0.3);
-    
-            box-shadow        : inset 0 -1px 1px rgba(255,255,255,0.3);
-            width: 300px;
-             /* margin: 0 0 0 -59px; */
-    
-    }
-    .meter > span {
-        
-                display: block;
-        
-                height: 100%;
-        
-                   -webkit-border-top-right-radius: 8px;
-        
-                -webkit-border-bottom-right-radius: 8px;
-        
-                       -moz-border-radius-topright: 8px;
-        
-                    -moz-border-radius-bottomright: 8px;
-        
-                           border-top-right-radius: 8px;
-        
-                        border-bottom-right-radius: 8px;
-                            -webkit-border-top-left-radius: 20px;
-        
-                 -webkit-border-bottom-left-radius: 20px;
-        
-                        -moz-border-radius-topleft: 20px;
-        
-                     -moz-border-radius-bottomleft: 20px;
+    height: 20px;
+    /* Может быть любой */
 
-                            border-top-left-radius: 20px;
-        
-                         border-bottom-left-radius: 20px;
-        
-                background-color: rgb(43,194,83);
-        
-                background-image: -webkit-gradient(
-        
-                  linear,
-        
-                  left bottom,
-        
-                  left top,
-        
-                  color-stop(0, rgb(43,194,83)),
-        
-                  color-stop(1, rgb(84,240,84))
-        
-                 );
-        
-                background-image: -moz-linear-gradient(
-        
-                  center bottom,
-                          rgb(43,194,83) 37%,
-    
-                  rgb(84,240,84) 69%
-        
-                 );
-        
-                -webkit-box-shadow:
-        
-                  inset 0 2px 9px  rgba(255,255,255,0.3),
-        
-                  inset 0 -2px 6px rgba(0,0,0,0.4);
-        
-                -moz-box-shadow:
-        
-                  inset 0 2px 9px  rgba(255,255,255,0.3),
-    
-                  inset 0 -2px 6px rgba(0,0,0,0.4);
-              overflow: hidden;
-        
-                position: relative;
-}
-  .meter2{
-    
-    height: 20px;  /* Может быть любой */
-    
     position: relative;
 
     background: #555;
@@ -210,80 +187,261 @@
 
     padding: 10px;
 
-    -webkit-box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+    -webkit-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
 
-    -moz-box-shadow   : inset 0 -1px 1px rgba(255,255,255,0.3);
+    -moz-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
 
-    box-shadow        : inset 0 -1px 1px rgba(255,255,255,0.3);
+    box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
     width: 300px;
-    margin:0 0 0 390px;
-  }      
-  .meter2 > span {
-        
+    margin: 0 auto;
+
+
+}
+
+.meter>span {
+
     display: block;
 
     height: 100%;
 
-       -webkit-border-top-right-radius: 8px;
+    -webkit-border-top-right-radius: 8px;
 
     -webkit-border-bottom-right-radius: 8px;
 
-           -moz-border-radius-topright: 8px;
+    -moz-border-radius-topright: 8px;
 
-        -moz-border-radius-bottomright: 8px;
+    -moz-border-radius-bottomright: 8px;
 
-               border-top-right-radius: 8px;
+    border-top-right-radius: 8px;
 
-            border-bottom-right-radius: 8px;
-                -webkit-border-top-left-radius: 20px;
+    border-bottom-right-radius: 8px;
+    -webkit-border-top-left-radius: 20px;
 
-     -webkit-border-bottom-left-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px;
 
-            -moz-border-radius-topleft: 20px;
+    -moz-border-radius-topleft: 20px;
 
-         -moz-border-radius-bottomleft: 20px;
+    -moz-border-radius-bottomleft: 20px;
 
-                border-top-left-radius: 20px;
+    border-top-left-radius: 20px;
 
-             border-bottom-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 
-    background-color: rgb(43,194,83);
+    background-color: rgb(43, 194, 83);
 
-    background-image: -webkit-gradient(
+    background-image: -webkit-gradient(linear,
 
-      linear,
+            left bottom,
 
-      left bottom,
+            left top,
 
-      left top,
+            color-stop(0, rgb(43, 194, 83)),
 
-      color-stop(0, rgb(43,194,83)),
+            color-stop(1, rgb(84, 240, 84)));
 
-      color-stop(1, rgb(84,240,84))
+    background-image: -moz-linear-gradient(center bottom,
+            rgb(43, 194, 83) 37%,
 
-     );
-
-    background-image: -moz-linear-gradient(
-
-      center bottom,
-              rgb(43,194,83) 37%,
-
-      rgb(84,240,84) 69%
-
-     );
+            rgb(84, 240, 84) 69%);
 
     -webkit-box-shadow:
 
-      inset 0 2px 9px  rgba(255,255,255,0.3),
+        inset 0 2px 9px rgba(255, 255, 255, 0.3),
 
-      inset 0 -2px 6px rgba(0,0,0,0.4);
+        inset 0 -2px 6px rgba(0, 0, 0, 0.4);
 
     -moz-box-shadow:
 
-      inset 0 2px 9px  rgba(255,255,255,0.3),
+        inset 0 2px 9px rgba(255, 255, 255, 0.3),
 
-      inset 0 -2px 6px rgba(0,0,0,0.4);
-  overflow: hidden;
+        inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
 
     position: relative;
 }
+
+.meter2 {
+
+    height: 20px;
+   
+
+    position: relative;
+
+    background: #555;
+
+    -moz-border-radius: 25px;
+
+    -webkit-border-radius: 25px;
+
+    border-radius: 25px;
+
+    padding: 10px;
+
+    -webkit-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+
+    -moz-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+
+    box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+    width: 300px;
+    margin: 0 auto;
+}
+
+.meter2>span {
+
+    display: block;
+
+    height: 100%;
+
+    -webkit-border-top-right-radius: 8px;
+
+    -webkit-border-bottom-right-radius: 8px;
+
+    -moz-border-radius-topright: 8px;
+
+    -moz-border-radius-bottomright: 8px;
+
+    border-top-right-radius: 8px;
+
+    border-bottom-right-radius: 8px;
+    -webkit-border-top-left-radius: 20px;
+
+    -webkit-border-bottom-left-radius: 20px;
+
+    -moz-border-radius-topleft: 20px;
+
+    -moz-border-radius-bottomleft: 20px;
+
+    border-top-left-radius: 20px;
+
+    border-bottom-left-radius: 20px;
+
+    background-color: rgb(43, 194, 83);
+
+    background-image: -webkit-gradient(linear,
+
+            left bottom,
+
+            left top,
+
+            color-stop(0, rgb(43, 194, 83)),
+
+            color-stop(1, rgb(84, 240, 84)));
+
+    background-image: -moz-linear-gradient(center bottom,
+            rgb(43, 194, 83) 37%,
+
+            rgb(84, 240, 84) 69%);
+
+    -webkit-box-shadow:
+
+        inset 0 2px 9px rgba(255, 255, 255, 0.3),
+
+        inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+
+    -moz-box-shadow:
+
+        inset 0 2px 9px rgba(255, 255, 255, 0.3),
+
+        inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+
+    position: relative;
+}
+
+.meter3 {
+
+    height: 20px;
+    /* Может быть любой */
+
+    position: relative;
+
+    background: #555;
+
+    -moz-border-radius: 25px;
+
+    -webkit-border-radius: 25px;
+
+    border-radius: 25px;
+
+    padding: 10px;
+
+    -webkit-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+
+    -moz-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+
+    box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+    width: 300px;
+    margin: 0 auto;
+}
+
+.meter3>span {
+
+    display: block;
+
+    height: 100%;
+
+    -webkit-border-top-right-radius: 8px;
+
+    -webkit-border-bottom-right-radius: 8px;
+
+    -moz-border-radius-topright: 8px;
+
+    -moz-border-radius-bottomright: 8px;
+
+    border-top-right-radius: 8px;
+
+    border-bottom-right-radius: 8px;
+    -webkit-border-top-left-radius: 20px;
+
+    -webkit-border-bottom-left-radius: 20px;
+
+    -moz-border-radius-topleft: 20px;
+
+    -moz-border-radius-bottomleft: 20px;
+
+    border-top-left-radius: 20px;
+
+    border-bottom-left-radius: 20px;
+
+    background-color: rgb(43, 194, 83);
+
+    background-image: -webkit-gradient(linear,
+
+            left bottom,
+
+            left top,
+
+            color-stop(0, rgb(43, 194, 83)),
+
+            color-stop(1, rgb(84, 240, 84)));
+
+    background-image: -moz-linear-gradient(center bottom,
+            rgb(43, 194, 83) 37%,
+
+            rgb(84, 240, 84) 69%);
+
+    -webkit-box-shadow:
+
+        inset 0 2px 9px rgba(255, 255, 255, 0.3),
+
+        inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+
+    -moz-box-shadow:
+
+        inset 0 2px 9px rgba(255, 255, 255, 0.3),
+
+        inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+
+    position: relative;
+}
+/* ШКАЛА ПРОГРЕССА */
+
+.instagram {
+    border-radius: 20%;
+}
+/* ИНСТА */
+.vk{
+    border-radius: 20%;
+}
+/* ВК */
