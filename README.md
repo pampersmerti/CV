@@ -1,1 +1,1 @@
-https://pampersmerti.github.io/CV
+https://pampersmerti.github.io/CV/github
